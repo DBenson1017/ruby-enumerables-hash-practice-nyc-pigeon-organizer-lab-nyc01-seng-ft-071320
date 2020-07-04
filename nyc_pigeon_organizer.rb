@@ -19,8 +19,11 @@ new_hash.each do |names, values|
       array.each |element|
       if element == name && hashvalue == top_three 
         new_hash[name][hashvalue] << value.to_s 
-    
 end 
-
-nyc_pigeon_organizer
+end 
+end 
+end 
+end 
+end 
+new_hash
 end
