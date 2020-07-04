@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
 end
 new_hash.each do |names, values|
   values.each do |inner_key, array|
-    data.each |values|
+    data.each |top_three, values|
     values.each do | value, array|
       array.each |element|
         if element == itme && hashvalue == top_three 
