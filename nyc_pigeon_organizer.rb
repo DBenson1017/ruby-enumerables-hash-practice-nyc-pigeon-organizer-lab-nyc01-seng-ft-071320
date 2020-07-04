@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
      inner_value.each do |name|
        if final_hash[name] == nil 
          final_hash[name] = {} 
+         final_hash[name][top_three] = []
       end 
    if final_hash[name][top_three] == nil 
      final_hash[name][top_three] = []
