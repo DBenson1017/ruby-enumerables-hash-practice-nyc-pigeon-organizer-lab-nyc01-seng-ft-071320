@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
   end
 end
 new_hash.each do |names, values|
-  values.each do |hashvalue, array|
+  values.each do |inner_key, array|
     data.each |top_three, values|
     values.each do | value, array|
       array.each |element|
