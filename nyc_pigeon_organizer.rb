@@ -1,8 +1,8 @@
 def nyc_pigeon_organizer(data)
   final_hash = {}
   data.each do |top_three, hash_value|
-    hash_value.each do |inner_key, inner_value|
-     inner_value.each do |name|
+    hash_value.each do |inner_key, inner_array|
+     inner_array.each do |name|
        if final_hash[name] == nil 
          final_hash[name] = {} 
          final_hash[name][top_three] = []
