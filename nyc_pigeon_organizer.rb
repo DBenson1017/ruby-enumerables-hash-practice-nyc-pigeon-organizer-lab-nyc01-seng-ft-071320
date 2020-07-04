@@ -1,11 +1,11 @@
 def nyc_pigeon_organizer(data)
   final_hash = {}
-  data.each do |top_three, value|
-    value.each do |inner_key, inner_value|
-     inner_value.each do |stats, pigeons|
-       pigeons.each do |name| 
-       if new_hash[name] == nil 
-         new_hash[name] = {} 
+  data.each do |top_three, hash_value|
+    hash_value.each do |inner_key, inner_value|
+     inner_value.each do |index, name|
+       index.each do |name| 
+       if final_hash[name] == nil 
+         final_hash[name] = {} 
       end 
    if new_hash[name][top_three] == nil 
      new_hash[name][top_three] = []
