@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
    if final_hash[name][top_three] == nil 
      final_hash[name][top_three] = []
   end
-  final_hash[name][top_three].push(stats.to_s)
+  final_hash[name][top_three].push(hash_value.to_s)
 end
 end
 end
