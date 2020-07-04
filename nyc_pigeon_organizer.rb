@@ -14,6 +14,7 @@ def nyc_pigeon_organizer(data)
 end
 new_hash.each do |names, values|
   values.each do |hashvalue, array|
+    data.each |top_three, |
     
 end 
 
