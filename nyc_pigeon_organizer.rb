@@ -1,3 +1,5 @@
+require 'pry'
+
 def nyc_pigeon_organizer(data)
   final_hash = {}
   data.each do |top_three, hash_value|
@@ -6,6 +8,7 @@ def nyc_pigeon_organizer(data)
        if final_hash[item] == nil 
          final_hash[item] = {} 
          final_hash[item][top_three] = []
+         binding.pry
       else  
      final_hash[item][top_three] = []
       end
