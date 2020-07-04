@@ -17,7 +17,7 @@ new_hash.each do |names, values|
     data.each |top_three, values|
     values.each do | value, array|
       array.each |element|
-      if element == 
+      if element == name && hashvalue == top_three 
     
 end 
 
