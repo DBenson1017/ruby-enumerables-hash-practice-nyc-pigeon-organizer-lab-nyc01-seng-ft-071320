@@ -16,7 +16,8 @@ new_hash.each do |names, values|
   values.each do |hashvalue, array|
     data.each |top_three, values|
     values.each do | value, array|
-      array.each 
+      array.each |element|
+      
     
 end 
 
