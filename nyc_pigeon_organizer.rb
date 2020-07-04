@@ -12,7 +12,8 @@ def nyc_pigeon_organizer(data)
     end
   end
 end
-new_hash.each do | |
+new_hash.each do |names, values|
+  
 end 
 
 nyc_pigeon_organizer
