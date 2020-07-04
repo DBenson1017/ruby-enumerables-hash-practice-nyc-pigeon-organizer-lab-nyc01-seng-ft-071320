@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   final_hash = {}
   data.each do |top_three, hash_value|
     hash_value.each do |inner_key, inner_value|
-     inner_value.each do |index, name|
+     inner_value.each do |name|
        index.each do |name| 
        if final_hash[name] == nil 
          final_hash[name] = {} 
