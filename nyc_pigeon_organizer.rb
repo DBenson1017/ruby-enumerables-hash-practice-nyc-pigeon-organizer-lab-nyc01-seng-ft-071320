@@ -19,7 +19,6 @@ end
 
 nyc_pigeon_organizer
 
-end
 
 =begin data.each do |attribute, value|
   #itterates over the hash and looks for gender, then adds the names from 
