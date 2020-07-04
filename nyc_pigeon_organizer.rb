@@ -2,10 +2,10 @@ def nyc_pigeon_organizer(data)
   final_hash = {}
   data.each do |top_three, hash_value|
     hash_value.each do |inner_key, inner_array|
-     inner_array.each do |name|
-       if final_hash[name] == nil 
-         final_hash[name] = {} 
-         final_hash[name][top_three] = []
+     inner_array.each do |item|
+       if final_hash[item] == nil 
+         final_hash[item] = {} 
+         final_hash[item][top_three] = []
       else  
      final_hash[name][top_three] = []
       end
