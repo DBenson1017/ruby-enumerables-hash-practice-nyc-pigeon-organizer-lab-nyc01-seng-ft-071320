@@ -8,10 +8,10 @@ def nyc_pigeon_organizer(data)
          final_hash[name][top_three] = []
    else  
      final_hash[name][top_three] = []
+        end
+      end
+    end
   end
-end
-end
-end
 new_hash
 end 
 
