@@ -17,13 +17,13 @@ new_hash.each do |names, values|
     data.each |top_three, values|
     values.each do | value, array|
       array.each |element|
-      if element == name && hashvalue == top_three 
-        new_hash[name][hashvalue] << value.to_s 
+        if element == name && hashvalue == top_three 
+          new_hash[name][hashvalue] << value.to_s 
+        end 
+      end 
+    end 
+  end 
 end 
-end 
-end 
-end 
-end 
-end 
+ 
 new_hash
 end 
