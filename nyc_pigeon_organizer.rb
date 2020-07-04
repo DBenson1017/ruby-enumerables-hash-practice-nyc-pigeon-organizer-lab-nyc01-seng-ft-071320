@@ -6,4 +6,5 @@ def nyc_pigeon_organizer(data)
       names.each do |names|
         if !final_array[name]
           final_array[name]= {}
-          
+        end 
+        
