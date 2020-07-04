@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
          final_hash[item] = {} 
          final_hash[item][top_three] = []
       else  
-     final_hash[name][top_three] = []
+     final_hash[item][top_three] = []
       end
     end
   end
