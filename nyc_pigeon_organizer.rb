@@ -17,6 +17,8 @@ end
 new_hash
 end 
 
+nyc_pigeon_organizer
+
 =begin data.each do |attribute, value|
   #itterates over the hash and looks for gender, then adds the names from 
   if attribute == :gender 
